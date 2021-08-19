@@ -77,7 +77,7 @@
     * 함수의 파라미터로서의 배열 ✅ 
     
 * CHAPTER 03. 스택 ✅
-  * 3.3 스택의 응용: 괄호 검사   
+  * 3.3 [스택의 응용: 괄호 검사](https://github.com/ERIN56/Algorithm/blob/master/C%2B%2B%EB%A1%9C%20%EC%89%BD%EA%B2%8C%20%ED%92%80%EC%96%B4%EC%93%B4%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/3.3%20%EC%8A%A4%ED%83%9D%EC%9D%98%20%EC%9D%91%EC%9A%A9%20%EA%B4%84%ED%98%B8%20%EA%B2%80%EC%82%AC.cpp)  
   * 3.4 스택의 응용: 수식의 계산   
   * 3.5 미로 탐색 문제와 표준 템플릿 라이브러리(STL)   
 
