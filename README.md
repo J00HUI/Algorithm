@@ -1,9 +1,12 @@
 # Algorithm
 알고리즘 정리 + 자료구조
 </br>
+</br>
 
 ---
-## [유튜브 바킹독의 실전 알고리즘]()
+
+## [유튜브) 바킹독의 실전 알고리즘](https://github.com/ERIN56/Algorithm/blob/master/유튜브%20바킹독의%20실전%20알고리즘/README.md)
+</br>
 
 ## <img src="https://user-images.githubusercontent.com/83942393/130044963-64f98153-3065-4c75-b867-36d7f53195ce.png" width="5%" height="10%"></img> 이것이 취업을 위한 코딩 테스트다 with 파이썬 ✅
 
