@@ -5,7 +5,7 @@
 
 ---
 
-## [유튜브) 바킹독의 실전 알고리즘](https://github.com/ERIN56/Algorithm/blob/master/유튜브%20바킹독의%20실전%20알고리즘/README.md)
+## [유튜브) 바킹독의 실전 알고리즘](https://github.com/ERIN56/Algorithm/blob/master/%EC%9C%A0%ED%8A%9C%EB%B8%8C%20%EB%B0%94%ED%82%B9%EB%8F%85%EC%9D%98%20%EC%8B%A4%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/README.md)
 </br>
 
 ## <img src="https://user-images.githubusercontent.com/83942393/130044963-64f98153-3065-4c75-b867-36d7f53195ce.png" width="5%" height="10%"></img> 이것이 취업을 위한 코딩 테스트다 with 파이썬 ✅
