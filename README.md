@@ -3,8 +3,9 @@
 </br>
 
 ---
+## [유튜브 바킹독의 실전 알고리즘]()
 
-<img src="https://user-images.githubusercontent.com/83942393/130044963-64f98153-3065-4c75-b867-36d7f53195ce.png" width="5%" height="10%"></img> 이것이 취업을 위한 코딩 테스트다 with 파이썬 ✅
+## <img src="https://user-images.githubusercontent.com/83942393/130044963-64f98153-3065-4c75-b867-36d7f53195ce.png" width="5%" height="10%"></img> 이것이 취업을 위한 코딩 테스트다 with 파이썬 ✅
 
 * 그리디
 * 구현
@@ -16,7 +17,7 @@
 * 그래프 이론 (서로소 집합, 신장 트리, 크루스칼 알고리즘)
 </br>
 
-<img src="https://user-images.githubusercontent.com/83942393/130045451-edf94924-96a7-4a49-8566-5aef1302ca95.png" width="7%" height="12%"></img> 뇌를 자극하는 알고리즘
+## <img src="https://user-images.githubusercontent.com/83942393/130045451-edf94924-96a7-4a49-8566-5aef1302ca95.png" width="7%" height="12%"></img> 뇌를 자극하는 알고리즘
 
 * 1부 자료구조
   * 1장 리스트 : 목록형 자료구조
@@ -67,7 +68,7 @@
   * 15장 백트랙킹 : 해가 될 수 있는 수많은 후보 중에서 효율적으로 실제 해만을 골라내는 기법 ✅
 </br>
 
-<img src="https://user-images.githubusercontent.com/83942393/130050176-c5dba841-f49f-417b-9182-8d6190964114.png" width="5%" height="10%"></img> C++로 쉽게 풀어쓴 자료구조   
+## <img src="https://user-images.githubusercontent.com/83942393/130050176-c5dba841-f49f-417b-9182-8d6190964114.png" width="5%" height="10%"></img> C++로 쉽게 풀어쓴 자료구조   
 
 * CHAPTER 01 자료구조와 알고리즘 ✅
   * 1.4 알고리즘의 성능 분석    
