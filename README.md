@@ -1,4 +1,4 @@
-# Algorithm
+# ALGORITHM
 알고리즘 정리 + 자료구조
 </br>
 </br>
