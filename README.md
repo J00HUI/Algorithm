@@ -73,19 +73,19 @@
 
 ## <img src="https://user-images.githubusercontent.com/83942393/130050176-c5dba841-f49f-417b-9182-8d6190964114.png" width="5%" height="10%"></img> C++로 쉽게 풀어쓴 자료구조   
 
-* CHAPTER 01 자료구조와 알고리즘
-* CHAPTER 02. 배열과 클래스    
-* CHAPTER 03. 스택
+* 01 자료구조와 알고리즘
+* 02. 배열과 클래스    
+* 03. 스택
   * 3.3 [스택의 응용: 괄호 검사](https://github.com/ERIN56/Algorithm/blob/master/C%2B%2B%EB%A1%9C%20%EC%89%BD%EA%B2%8C%20%ED%92%80%EC%96%B4%EC%93%B4%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/3.3%20%EC%8A%A4%ED%83%9D%EC%9D%98%20%EC%9D%91%EC%9A%A9%20%EA%B4%84%ED%98%B8%20%EA%B2%80%EC%82%AC.cpp)  
-* CHAPTER 04. 큐
-* CHATER 05. 포인터와 연결 리스트
-* CHATER 06. 리스트
-* CHAPTER 07. 순환
+* 04. 큐
+* 05. 포인터와 연결 리스트
+* 06. 리스트
+* 07. 순환
   * 7.5 [다중 순환](https://github.com/ERIN56/Algorithm/blob/master/C%2B%2B%EB%A1%9C%20%EC%89%BD%EA%B2%8C%20%ED%92%80%EC%96%B4%EC%93%B4%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/7.5%20%EB%8B%A4%EC%A4%91%20%EC%88%9C%ED%99%98.cpp)   
-* CHATER 08. 트리
-* CHATER 09. 이진 탐색 트리
-* CHAPTER 10. 우선순위 큐
-* CHAPTER 11. 그래프 
-* CHAPTER 12. 가중치 그래프   
-* CHAPTER 13. 정렬   
-* CHAPTER 14. 탐색
+* 08. 트리
+* 09. 이진 탐색 트리
+* 10. 우선순위 큐
+* 11. 그래프 
+* 12. 가중치 그래프   
+* 13. 정렬   
+* 14. 탐색
