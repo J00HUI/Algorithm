@@ -1,4 +1,75 @@
 ## A강. DFS
 
-https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcgMxR3%2FbtqErL5KKTh%2FbCG4T5FYjFFbknu1Mujix0%2Fimg.png![Uploading image.png…]()
+<img src="https://user-images.githubusercontent.com/83942393/138592045-5e49e9a2-2a82-4842-ac34-e77720fdc346.png" width="80%"></img></br>
+</br>
+
+<img src="https://user-images.githubusercontent.com/83942393/138592047-d8294d9a-42bc-4b8e-a570-6cfa45a40522.png" width="80%"></img></br>
+</br>
+
+<img src="https://user-images.githubusercontent.com/83942393/138592056-456910e9-8453-4f9c-b47b-3bac5591fa24.png" width="80%"></img></br>
+- 과정을 먼저 소개해보면, 뭔가 어디서 본 것 같다는 느낌을 받을텐데, 바로 BFS의 과정에서 다른 건 다 똑같고 큐만 스택으로 바뀌었습니다.
+- 큐를 쓰면 BFS이고, 스택을 쓰면 DFS가 됩니다.
+</br>
+
+- 이번에는 DFS로 상하좌우로 나와 인접한 같은 색의 칸을 방문하는 Flood Fill을 해결해보겠습니다. 
+</br>
+
+<img src="https://user-images.githubusercontent.com/83942393/138592130-2d5ed76a-38ef-4407-bd02-cd189f31fccd.png" width="80%"></img></br>
+- 이번에도 (0,0)과 상하좌우로 이어진 모든 파란색 칸을 확인해보도록 하겠습니다.
+- 우선 (0,0)에 방문했다는 표시를 남기고, 해당 칸을 스택에 넣습니다.
+- 이게 초기세팅이고, 이후에는 스택이 빌 때까지 계속 스택의 top을 빼고 해당 좌표의 상하좌우를 살펴보면서 스택에 넣어주는 작업을 반복하면 됩니다. 
+</br>
+
+<img src="https://user-images.githubusercontent.com/83942393/138592179-08f0f7cc-54d5-4f86-9e0d-2bd4e1d01609.png" width="80%"></img></br>
+- (0,1)과 (1,0) 모두 파란 칸이면서, 아직 방문하지 않은 칸이니 방문했다는 표시를 남기고 스택에 넣습니다. 
+</br>
+
+<img src="https://user-images.githubusercontent.com/83942393/138592215-dfd5f30a-9cce-44a6-b678-6d36bc487cff.png" width="80%"></img></br>
+- 스택이 비는 순간 과정은 종료됩니다.
+- DFS도 BFS처럼 Flood Fill 이 필요할 때 사용할 수 있음을 알 수 있습니다.
+- 그런데 보면, 느끼셨을 지 모르겠지만, BFS와 DFS 모두 비록 최종적인 방문 결과는 똑같더라도, 방문 순서에서 아주 큰 차이가 있습니다.
+- 이 부분은 다음 챕터에서 BFS와 DFS를 비교할 때 제대로 설명 드리겠습니다.
+</br>
+
+<img src="https://user-images.githubusercontent.com/83942393/138592269-ea8b1384-728e-4da6-af66-404fd9e532ea.png" width="100%"></img></br>
+- 구현한 코드를 보면 굉장히 익숙할 것입니다.
+- BFS 코드에서 큐만 스택으로 바뀌었습니다.
+- 코드에 대한 설명은 BFS 단원에서 충분히 했기 때문에 여기서 또 하지는 않겠습니다. 
+</br>
+
+<img src="https://user-images.githubusercontent.com/83942393/138592291-6cba16a5-4ba0-49e1-be45-d60a78c2125e.png" width="80%"></img></br>
+- BFS와 DFS를 살펴보면, BFS는 큐를 쓰고 DFS는 스택을 쓴다는 차이가 있지만, 원소 하나를 빼내고 주변을 살펴본다는 알고리즘 흐름은 똑같습니다.
+- 하지만 둘의 방문 순서는 큰 차이가 있는데, 우선 BFS 방문 순서를 확인해 보겠습니다.
+</br>
+
+- 시작점을 중앙으로 잡았는데, 보면 마치 냇가에 던진 돌로 인해 동심원이 생기는 것처럼 상하좌우로 퍼져나가는 것을 볼 수 있습니다.
+- 그리고 이전 단원에서 다룬 BFS의 성질인 거리 순으로 방문한다는 것 또한 잘 성립함을 알 수 있습니다.
+</br>
+
+- 이번에는 DFS에서의 방문 순서를 확인해보겠습니다.
+- 이건 어떻게 비유를 해야할 지 모르겠지만, 아무튼 뭔가 차이가 있다는 건 알 수 있을 것입니다.
+- 뭔가 한 방향으로 막힐때 까지 쭉 직진한다는 걸 알 수 있습니다.
+- 지금 보신 것과 같이 BFS와 DFS는 방문 순서에 큰 차이가 있습니다. 
+</br>
+
+<img src="https://user-images.githubusercontent.com/83942393/138592391-7247e7f8-b989-4fd6-bc7e-9a54b59dbebe.png" width="80%"></img></br>
+- 그리고 BFS에서 유용하게 썼던 "현재 보는 칸으로부터 추가되는 인접한 칸은 거리가 현재 보는 칸보다 1만큼 떨어져있다"는 성질이 DFS에서는 성립하지 않습니다.
+- 이 그림은 (0,0)에서 DFS를 시작할 때 나오는 상황인데, 빨간색 칸은 거리가 4인 반면, 빨간색 칸과 인접한 검정색 칸은 거리가 3입니다.
+- 그래서 거리를 계산할 때에는 DFS를 사용할 수 없습니다.
+</br>
+
+- 그러면 결국 우리는 다차원 배열에서 굳이 BFS 대신 DFS를 써야하는 일이 없습니다.
+- Flood Fill은 BFS와 DFS 중에서 어느 것을 써도 상관이 없는데, 거리 측정은 BFS만 할 수 있으니 BFS 대신 DFS를 쓸 일이 없습니다.
+- 그래서 앞으로 다차원 배열에서 순회하는 문제를 풀 때 계속 BFS만 쓰게 됩니다.
+</br>
+
+- 하지만 그렇다고 해서 DFS가 아무 무쓸모한 것은 아니고, 나중에 그래프와 트리라는 자료구조를 배울 때 DFS가 필요하게 됩니다. 
+- 그러니 아예 잊어버리진 마시고, DFS는 스택을 써서 다차원 배열을 순회를 처리하는 알고리즘이다, 깊이를 우선해서 탐색하는데 깊이가 무슨 의미인지는 아직 잘 와닿지 않는다. 정도로만 기억하고 넘어가면 이번 단원에서 해야 할 내용은 끝났습니다.
+
+
+
+
+
+
+
 
