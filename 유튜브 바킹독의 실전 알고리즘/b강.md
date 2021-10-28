@@ -119,7 +119,7 @@
 - 즉, 이 피보나치 문제의 경우에는 식을 별 생각없이 재귀로 구현했더니 자기 자신을 여러 번 호출하는 과정에서 중복된 계산이 계속 발생해 시간 복잡도가 말도 안되게 커져버린 상황이고, 재귀 대신 나중에 배울 다이나믹 프로그래밍이라는 방법을 이용해 우리의 상식대로 O(n)에 해결할 수 있습니다. 
 </br>
 
-<img src="https://user-images.githubusercontent.com/83942393/139202961-eedbc0ae-2d32-41ed-ab4f-a6f116b19c1f.png" width="80%"></img></br>
+<img src="https://user-images.githubusercontent.com/83942393/139202961-eedbc0ae-2d32-41ed-ab4f-a6f116b19c1f.png" width="100%"></img></br>
 - 정보가 좀 많아 이정도면 거의 TMI가 아닌가 싶은데, 아무튼 설명을 계속 하겠습니다. 
 - 재귀 함수가 자기 자신을 부를 때 스택 영역에 함수에 대한 정보가 누적됩니다. 
 - 이 스택 영역이라고 하는 것은 메모리 구조에서의 스택 영역을 말하는 건데, 태어나서 생전 처음 들어보셨다고 하시는 분은 나중에 메모리 구조와 관련된 수업을 들으면 배우게 될 것입니다. 
@@ -155,7 +155,7 @@
 - 이런 식으로 저 코드를 제대로 동작하지 않는데, 그 이유를 잘 아시겠죠?
 </br>
 
-<img src="https://user-images.githubusercontent.com/83942393/139204417-862fe7ef-20d5-4e77-ad4b-e4f7311b9f48.png" width="80%"></img></br>
+<img src="https://user-images.githubusercontent.com/83942393/139204417-862fe7ef-20d5-4e77-ad4b-e4f7311b9f48.png" width="100%"></img></br>
 - 그 이유는 바로 int overflow 때문입니다. 
 - 6^100은 int 의 범위를 까마득하게 벗어났습니다. 
 - 이걸 해결해주려면 곱하는 중간 중간 계속 m으로 나눠서 나머지만 챙겨가면 됩니다. 
@@ -204,7 +204,7 @@
 - 이 두 문장이 참이기 때문에 우리는 a의 임의의 지수승을 귀납적으로 계산할 수 있습니다.
 </br>
 
-<img src="https://user-images.githubusercontent.com/83942393/139206166-11846c04-582e-4af3-acdf-3d5a8accaa9d.png" width="80%"></img></br>
+<img src="https://user-images.githubusercontent.com/83942393/139206166-11846c04-582e-4af3-acdf-3d5a8accaa9d.png" width="100%"></img></br>
 - 코드를 같이 보겠습니다. 
 - POW 함수가 a^b mod m을 계산해주는 함수입니다.
 - base condition은 07번째 줄에 명시되어 있습니다.
