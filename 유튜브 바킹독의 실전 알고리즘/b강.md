@@ -368,5 +368,5 @@
 - 여기서 half는 한 변의 길이가 절반, 즉 2^(n-1)입니다.
 </br>
 
-<img src=https://user-images.githubusercontent.com/83942393/139231376-9d38564b-60a6-4e24-b64d-f95ddffbc976.png"" width="100%"></img></br>
+<img src="https://user-images.githubusercontent.com/83942393/139231376-9d38564b-60a6-4e24-b64d-f95ddffbc976.png" width="100%"></img></br>
 - 앞에서 살펴본 것을 한데 모으면 이렇게 코드를 완성할 수 있습니다. 
