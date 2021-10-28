@@ -322,6 +322,51 @@
 </br>
 
 - 이게 설명의 전부이고 뇌가 뒤틀리는 기분이겠지만 귀납적인 사고를 잘 받아들이셔서 재귀를 마저 잘 해낼 수 있으면 좋겠습니다.
+</br>
 
+<img src="https://user-images.githubusercontent.com/83942393/139229608-0406f052-82a2-41fa-8da5-dd2a2e1ccdff.png" width="80%"></img></br>
+</br>
 
+<img src="https://user-images.githubusercontent.com/83942393/139229650-d811e19c-527b-40f5-911a-3d2900232f9c.png" width="80%"></img></br>
+- 우리는 N=3일 때 특정 칸을 몇 번째로 방문하는지 알아볼건데, 제가 미리 n=2일 때의 결과를 다 알려드리겠습니다.
+- 이때 r=2, c=2인 곳을 몇 번쨰로 방문하는지 알겠나요?
+</br>
 
+<img src="https://user-images.githubusercontent.com/83942393/139229914-27d11ffb-eb8b-4b8a-aefc-749cf9608628.png" width="80%"></img></br>
+- 잘 모르겠다면 n=2일 때의 이 값을 한 번 참고해보시면 좋겠습니다.
+- 이 문제에서 번호가 어떤 식으로 매겨지냐면 배열을 4등분한 후에 1, 2, 3, 4 순으로 진행이 됩니다.
+- 그리고 각 사각형 안에서는 n=2일 때의 움직임을 그대로 따라가니 r=2, c=2인 곳은 12번째로 방문합니다.
+</br>
+
+<img src="https://user-images.githubusercontent.com/83942393/139230115-dbc89b97-890d-4088-8faf-80a5f8c5ca61.png" width="80%"></img></br>
+- 그 다음으로 r=6, c=2인 곳은 몇 번째로 방문하는지 알아봅시다. 
+- 이 곳을 방문하기 전에 분명 1번과 2번 사각형 내의 모든 칸을 다 방문했을 것입니다.
+- 즉 3번 사각형이 시작하기 전에 이미 32개의 칸을 방문했고, 3번 사각형 내에서는 지금 우리가 보는 저 칸이 12번째로 방문되니 최종적으로 32+12 = 44 번째라는 것을 알 수 있습니다.
+</br>
+
+- 이걸 보면서 뭔가 느낌이 오는게 있나요?
+- 보면 n=k 일 때의 결과를 가지고 n=k+1의 결과를 구할 때 써먹을 수 있습니다. 
+- 즉 재귀적인 형태를 잡아낼 수 있는거고 함수의 형태를 한 번 고민해보겠습니다.
+</br>
+
+<img src="https://user-images.githubusercontent.com/83942393/139230737-4e97b639-2497-4cae-9c3c-d27f5eac651f.png" width="80%"></img></br>
+- 첫 번째로 함수의 형태를 생각해야 하는데 이 문제에서는 딱 직관적으로 보이는 그 모양대로 바로 정의하면 됩니다. 
+</br>
+
+<img src="https://user-images.githubusercontent.com/83942393/139230806-cab596d1-e3f9-404f-9427-bc40dadcd330.png" width="80%"></img></br>
+- 이 값이 int 범위 안에 들어오는지도 신경을 써줄 필요가 있는데, n이 15이하라고 주어졌으니 int 범위에 잘 맞습니다.
+</br>
+
+<img src="https://user-images.githubusercontent.com/83942393/139230938-c15f6107-1193-401b-97d8-e28be7872771.png" width="80%"></img></br>
+- 그 다음은 base condition 인데 n=0일 때 0을 반환하도록 하는게 편합니다.
+- n=1로 해도 되지만 그러면 base condition 에서 별도의 처리가 필요하니 편하게 가겠습니다.
+</br>
+
+<img src="https://user-images.githubusercontent.com/83942393/139231160-995589d0-d94f-4b99-ae06-1737b750efec.png" width="80%"></img></br>
+- 마지막으로 재귀 식인데 앞에서 봤듯이 (r, c)가 어느 사각형에 있는지에 따라 식이 달라집니다.
+- 각 사각형에 따른 반환 값은 위와 같습니다.
+- 여기서 half는 한 변의 길이가 절반, 즉 2^(n-1)입니다.
+</br>
+
+<img src=https://user-images.githubusercontent.com/83942393/139231376-9d38564b-60a6-4e24-b64d-f95ddffbc976.png"" width="100%"></img></br>
+- 앞에서 살펴본 것을 한데 모으면 이렇게 코드를 완성할 수 있습니다. 
