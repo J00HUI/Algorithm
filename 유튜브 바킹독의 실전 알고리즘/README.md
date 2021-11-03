@@ -12,7 +12,7 @@
 *  9강 [BFS](https://github.com/ERIN56/ALGORITHM/blob/master/%EC%9C%A0%ED%8A%9C%EB%B8%8C%20%EB%B0%94%ED%82%B9%EB%8F%85%EC%9D%98%20%EC%8B%A4%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/9%EA%B0%95.md)
 *  A강 [DFS](https://github.com/ERIN56/ALGORITHM/blob/master/%EC%9C%A0%ED%8A%9C%EB%B8%8C%20%EB%B0%94%ED%82%B9%EB%8F%85%EC%9D%98%20%EC%8B%A4%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/a%EA%B0%95.md)
 *  B강 재귀
-*  C강 백트랙킹
+*  C강 [백트랙킹](https://github.com/JOOHEE56/ALGORITHM/blob/master/%EC%9C%A0%ED%8A%9C%EB%B8%8C%20%EB%B0%94%ED%82%B9%EB%8F%85%EC%9D%98%20%EC%8B%A4%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/c%EA%B0%95.md)
 *  D강 시뮬레이션
 *  E강 정렬 1
 *  F강 정렬 2
