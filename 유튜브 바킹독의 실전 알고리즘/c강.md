@@ -363,7 +363,7 @@
 - 이후 과정은 생략하겠습니다.
 </br>
 
-<img src=https://user-images.githubusercontent.com/83942393/139847268-0cc55de8-31db-4d8f-90ba-63651cc79c66.png"" width="60%"></img></br>
+<img src="https://user-images.githubusercontent.com/83942393/139847268-0cc55de8-31db-4d8f-90ba-63651cc79c66.png" width="60%"></img></br>
 - 이렇게 매 순간 수를 더할지 더하지 않을지 선택하는 방법으로 모든 부분 수열의 합을 뽑아낼 수 있습니다. 
 - 이제 이 값을 S와 비교해주면 끝입니다. 다음 슬라이드에서 코드를 같이 보겠습니다.
 </br>
@@ -411,5 +411,6 @@
  
 - 단, N과 M 3, 4, 7, 8 등과 같이 같은 수를 여러 번 쓸 수 있는 상황에서는 next_permutation을 사용하기가 어렵습니다.
 </br>
+
 - 다음 시간은 어찌됐든 재귀가 끝났기 때문에 최근 강의들보다는 훨씬 수월합니다. 고생 많으셨습니다.
 </br>
